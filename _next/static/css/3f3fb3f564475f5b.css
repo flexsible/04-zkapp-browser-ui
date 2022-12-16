@@ -153,9 +153,9 @@ a {
 	  width: 50px;
 	  background-size: cover;
 	  background-repeat: no-repeat;
-	  align-items: center;
-	  justify-content: center;
-	  margin-left: 85px;
+	  align-items: left;
+	  justify-content: left;
+	  margin-left: 20px;
   
   }
   
@@ -167,8 +167,8 @@ a {
 	  margin-left: auto;
 	  margin-right: auto;
 	  position: relative;	
-	  width: 900px;
-	  height: 600px;
+	  width: 100%;
+	  height: 100%;
 	  transform: scale(1);
 	  background-image: url(/04-zkapp-browser-ui/_next/static/media/homepageImg.9c352f70.png);
   }
@@ -213,8 +213,8 @@ a {
 	  background-image: url(/04-zkapp-browser-ui/_next/static/media/connectBtn1.c3aa08d9.jfif);
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 160px;
-	  height: 73px;
+	  width: 100%;
+	  height: 100%;
 	  position: absolute;
 	  left: 380px;
 	  top: 450px;
@@ -225,8 +225,8 @@ a {
 	  background-image: url(/04-zkapp-browser-ui/_next/static/media/connectBtn3.9f555fda.jfif);
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 160px;
-	  height: 73px;
+	  width: 100%;
+	  height: 100%;
 	  position: absolute;
 	  left: 380px;
 	  top: 450px;
@@ -237,8 +237,8 @@ a {
 	  background-image: url(/04-zkapp-browser-ui/_next/static/media/connectBtn3.9f555fda.jfif);
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 160px;
-	  height: 73px;
+	  width: 100%;
+	  height: 100%;
 	  position: absolute;
 	  left: 380px;
 	  top: 450px;
@@ -249,8 +249,8 @@ a {
 	  background-image: url(/04-zkapp-browser-ui/_next/static/media/loadingBtn.c833671e.png);
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 160px;
-	  height: 73px;
+	  width: 100%;
+	  height: 100%;
 	  position: absolute;
 	  left: 380px;
 	  top: 450px;
@@ -410,7 +410,7 @@ a {
   
   .pagehome_backNoAccount__mX2rH {
 	  display: block;
-	  background-image: url(/04-zkapp-browser-ui/_next/static/media/loadingBtn.c833671e.png);
+	  background-color: black;
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  width: 50px;
@@ -422,7 +422,7 @@ a {
   
   .pagehome_backNoAccount__mX2rH:hover {
 	  display: block;
-	  background-image: url(/04-zkapp-browser-ui/_next/static/media/loadingBtn.c833671e.png);
+	  background-color: black;
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  width: 50px;
@@ -434,7 +434,7 @@ a {
   
   .pagehome_backNoWallet__uEyJ5 {
 	  display: block;
-	  background-image: url(/04-zkapp-browser-ui/_next/static/media/loadingBtn.c833671e.png);
+	  background-color: white;
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  width: 50px;
@@ -446,7 +446,7 @@ a {
   
   .pagehome_backNoWallet__uEyJ5:hover {
 	  display: block;
-	  background-image: url(/04-zkapp-browser-ui/_next/static/media/loadingBtn.c833671e.png);
+	  background-color: aqua;
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  width: 50px;
@@ -458,7 +458,7 @@ a {
   
   .pagehome_sendBtn__G3dkL {
 	  display: block;
-	  background-image: url(/04-zkapp-browser-ui/_next/static/media/loadingBtn.c833671e.png);
+	  background-color: aqua;
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  width: 160px;
@@ -470,7 +470,7 @@ a {
   
   .pagehome_sendBtn__G3dkL:hover {
 	  display: block;
-	  background-image: url(/04-zkapp-browser-ui/_next/static/media/loadingBtn.c833671e.png);
+	  background-color: aqua;
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  width: 160px;
@@ -482,7 +482,7 @@ a {
   
   .pagehome_sendBtn__G3dkL:active {
 	  display: block;
-	  background-image: url(/04-zkapp-browser-ui/_next/static/media/loadingBtn.c833671e.png);
+	  background-color: green;
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  width: 160px;
@@ -494,7 +494,7 @@ a {
   
   .pagehome_sendBtnDisable__Ndm7K {
 	  display: block;
-	  background-image: url(/04-zkapp-browser-ui/_next/static/media/loadingBtn.c833671e.png);
+	  background-color: red;
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  width: 160px;
@@ -506,7 +506,7 @@ a {
   
   .pagehome_getBtn__YfGE9 {
 	  display: block;
-	  background-image: url(/04-zkapp-browser-ui/_next/static/media/loadingBtn.c833671e.png);
+	  background-color: white;
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  width: 160px;
@@ -518,7 +518,7 @@ a {
   
   .pagehome_getBtn__YfGE9:hover {
 	  display: block;
-	  background-image: url(/04-zkapp-browser-ui/_next/static/media/loadingBtn.c833671e.png);
+	  background-color: white;
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  width: 160px;
@@ -530,7 +530,7 @@ a {
   
   .pagehome_getBtn__YfGE9:active {
 	  display: block;
-	  background-image: url(/04-zkapp-browser-ui/_next/static/media/loadingBtn.c833671e.png);
+	  background-color: aqua;
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  width: 160px;
@@ -542,7 +542,7 @@ a {
   
   .pagehome_getBtnDisable__Trz3u {
 	  display: block;
-	  background-image: url(/04-zkapp-browser-ui/_next/static/media/loadingBtn.c833671e.png);
+	  background-color: red;
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  width: 160px;
