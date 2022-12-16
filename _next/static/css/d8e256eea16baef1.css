@@ -160,16 +160,20 @@ a {
 }
 
 .pagehome_homepage__TbwBr {
+	display: block;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
-	position: relative;
+	position: relative;	
+	width: 900px;
+	height: 600px;
 	transform: scale(1);
 }
 
 .pagehome_homepageImg__O6Ap9 {
+	display: block;
 	display: flex;
 	background-size: cover;
 	align-items: center;
@@ -179,12 +183,12 @@ a {
 	background-image: url(/04-zkapp-browser-ui/_next/static/media/homepageImg.9c352f70.png);
 	background-repeat: no-repeat;
 	position: absolute;
-	height: 100%;
+	width: 608px;
+	height: 500px;
 }
 
 .pagehome_connectBtn__AxdQb {
-  align-items: center;
-  justify-content: center;
+	display: block;
 	background-image: url(/04-zkapp-browser-ui/_next/static/media/connectBtn1.eb0fa597.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -196,8 +200,7 @@ a {
 }
 
 .pagehome_connectBtn__AxdQb:hover {
-  align-items: center;
-  justify-content: center;
+	display: block;
 	background-image: url(/04-zkapp-browser-ui/_next/static/media/connectBtn1.eb0fa597.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -209,8 +212,7 @@ a {
 }
 
 .pagehome_connectBtn__AxdQb:active {
-  align-items: center;
-  justify-content: center;
+	display: block;
 	background-image: url(/04-zkapp-browser-ui/_next/static/media/connectBtn3.4b3874f4.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -222,9 +224,7 @@ a {
 }
 
 .pagehome_loadingBtn__5YFvH {
-  align-items: center;
-  justify-content: center;
-  background-image: url(/04-zkapp-browser-ui/_next/static/media/loading.def9b689.gif);
+	display: block;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 160px;
@@ -236,7 +236,7 @@ a {
 
 .pagehome_loading__Sv0sH {
 	display: block;
- background-image: url(/04-zkapp-browser-ui/_next/static/media/loading.def9b689.gif);
+  background-image: url(/04-zkapp-browser-ui/_next/static/media/loading.def9b689.gif);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 300px;
